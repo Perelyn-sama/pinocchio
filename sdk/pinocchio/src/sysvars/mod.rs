@@ -5,6 +5,7 @@ use crate::program_error::ProgramError;
 pub mod clock;
 pub mod fees;
 pub mod rent;
+pub mod slot_hashes;
 
 /// A type that holds sysvar data.
 pub trait Sysvar: Default + Sized {
